@@ -1,0 +1,326 @@
+* {
+	font-family: "Work Sans", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+	height: 110px;
+	background-color: rgb(255, 255, 255);
+	padding: 0px 55px;
+}
+
+.navbar-nav {
+	margin: auto;
+	margin-right: 15px;
+}
+
+.nav-link {
+	margin-right: 10px;
+	color: #3d4246 !important;
+	font-weight: 400;
+}
+
+.dropdown-item:hover {
+	background-color: rgb(0, 0, 0, 0);
+}
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+}
+
+.bagpackDropdown {
+	margin: 5px 0px 0px 15px;
+}
+
+.apparelDropdown {
+	margin: 5px 0px 0px -165px;
+	padding: 15px 25px 0px;
+}
+
+.celanaItem {
+	padding-bottom: 15px;
+	list-style: none;
+	margin-left: -48px;
+	margin-top: 5px;
+}
+
+.apparelItem>li>a {
+	padding: 5px 15px;
+}
+
+.apparelItem>li>a>span {
+	font-weight: 700;
+}
+
+.titleApparel:hover {
+	color: black;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.outdoorItem>.dropdown-menu-right {
+	right: 9px;
+	left: auto;
+}
+
+/* Login Page */
+
+.loginPage {
+	margin-top: 110px;
+	padding-top: 55px;
+}
+
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 19px;
+	color: #3d4246;
+}
+
+.form-control {
+	border-radius: 1px;
+	border: 1px solid #949494;
+	line-height: 1.2;
+	transition: none;
+	padding: 10px 18px;
+	color: #000;
+}
+
+.form-control-lg {
+	height: 41px;
+}
+
+.form-control:focus {
+	box-shadow: 0px 0px 0px;
+	color: #000;
+}
+
+/* footer */
+.inputEmailSubs {
+	height: 46px;
+}
+
+.isiFooter {
+	margin-top: 55px;
+	padding: 45px 0px 35px 0px;
+	background-color: #f5f5f5;
+}
+
+.isiFooter .h4 {
+	margin-bottom: 25px;
+	font-size: 17px;
+}
+
+.isiFooter ul li {
+	padding-bottom: 5px;
+}
+
+.isiFooter ul li a:hover {
+	color: #61696f;
+}
+
+.lineBawah {
+	margin: 75px 0px 20px 0px;
+}
+
+.list-inline-item {
+	padding: 0px 7px;
+}
+
+.fb {
+	padding: 0px 7px 0px 0px;
+}
+
+.footer-copyright {
+	font-size: 13px;
+}
+
+.footer-copyright a:hover {
+	color: #61696f;
+}
+
+/* Reset Password */
+h2 {
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+/*---- Index ----*/
+/* carousel */
+.carousel {
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+
+.carousel-indicators li {
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+}
+
+/* value */
+.index {
+	margin-bottom: 110px;
+}
+
+/* Collection */
+.collectionTitle {
+	margin: auto;
+	color: #FFF;
+	font-size: 1.625em;
+	text-decoration: none;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	padding: 0 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.bgCollection {
+	width: 250px;
+	height: 250px;
+	line-height: 250px;
+}
+
+.imgCollections {
+	position: absolute;
+	z-index: -1;
+}
+
+.bgCollection:hover {
+	background-color: rgba(61, 66, 70, 0.4);
+}
+
+.bgCollection>.tulisan {
+	margin: 0;
+}
+
+
+/* Blog Post */
+.bottomBlog {
+	margin-bottom: 27.5px;
+}
+
+h3 {
+	font-size: 1.625em;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.articleColumn {
+	padding: 0 0 0 30px;
+}
+
+.articleTitle {
+	margin-bottom: 11px !important;
+}
+
+.articleDate {
+	margin-bottom: 22px !important;
+}
+
+.btn-outline {
+
+	border: 1px solid #25282b;
+	border-radius: 2px;
+}
+
+.btn-Blog {
+	color: #25282b;
+}
+
+/* utility */
+
+.tulisan {
+	margin: 0px 0px 17.5px;
+	font-weight: 600;
+	line-height: 1.2;
+	word-wrap: break-word;
+}
+
+.title {
+	color: #3d4246;
+}
+
+a {
+	color: #3d4246;
+}
+
+a:hover {
+	color: #2b2f31;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 19px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.linkSpan {
+	color: #3d4246;
+}
+
+.linkSpan:hover {
+	border-bottom: 1px solid black;
+}
+
+.ProductTitle {
+	font-size: 1.0625em;
+}
+
+.headerSection {
+	margin-bottom: 55px;
+}
+
+.tombolz {
+	margin-bottom: 19px;
+	font-weight: 600;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	background-color: rgba(255, 255, 255, 0.9) !important;
+	border-radius: 2px;
+	border: none;
+	padding: 8px 18px 9px;
+}
+
+.tombol-view-sm {
+	color: #fff;
+	background-color: #000;
+	border-radius: 2px;
+	border: 1px solid transparent;
+}
+
+.tombol-sm {
+	padding: 8px 10px;
+	font-size: 0.75em;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: 0.08em;
+}
+
+.tombol:hover,
+.tombol:active,
+.tombol:focus {
+	background-color: #000;
+	color: #fff;
+}
+
+.meleb{
+	height: 1px !important;
+	width: 1px !important;
+}
